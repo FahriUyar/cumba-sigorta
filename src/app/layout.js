@@ -35,9 +35,9 @@ export const metadata = {
     siteName: "CUMBA Sigorta",
     images: [
       {
-        url: "/logo-black.png",
-        width: 800,
-        height: 600,
+        url: "https://demo.fahriuyar.com.tr/logo-gold.png",
+        width: 1200,
+        height: 630,
         alt: "CUMBA Sigorta Logo - Ankara Çukurambar Sigorta Acentesi",
       },
     ],
@@ -49,7 +49,7 @@ export const metadata = {
     title: "CUMBA Sigorta | Ankara Çukurambar BES ve Hayat Sigortası",
     description:
       "Ankara Çukurambar'da uzman kadrosuyla Bireysel Emeklilik (BES) ve Hayat Sigortası çözümleri.",
-    images: ["/logo-black.png"],
+    images: ["https://demo.fahriuyar.com.tr/logo-gold.png"],
   },
   robots: {
     index: true,
