@@ -51,7 +51,7 @@ export default function WhatsAppButton() {
       {/* Button */}
       <a
         id="whatsapp-float-btn"
-        href="https://wa.me/905551234567?text=Merhaba,%20bilgi%20almak%20istiyorum."
+        href="https://wa.me/905541738880?text=Merhaba,%20bilgi%20almak%20istiyorum."
         target="_blank"
         rel="noopener noreferrer"
         className="group relative flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-2xl shadow-[#25D366]/30 hover:shadow-[#25D366]/50 hover:scale-110 transition-all duration-300"

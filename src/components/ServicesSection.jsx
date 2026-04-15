@@ -17,7 +17,7 @@ const services = [
     ),
     ctaText: "BES Hakkında Bilgi Al",
     ctaLink:
-      "https://wa.me/905551234567?text=Merhaba,%20BES%20hakkında%20bilgi%20almak%20istiyorum.",
+      "https://wa.me/905541738880?text=Merhaba,%20BES%20hakkında%20bilgi%20almak%20istiyorum.",
     accentColor: "from-gold-500 to-gold-400",
   },
   {
@@ -38,7 +38,7 @@ const services = [
     ),
     ctaText: "Hayat Sigortası Detayları",
     ctaLink:
-      "https://wa.me/905551234567?text=Merhaba,%20Hayat%20Sigortası%20hakkında%20bilgi%20almak%20istiyorum.",
+      "https://wa.me/905541738880?text=Merhaba,%20Hayat%20Sigortası%20hakkında%20bilgi%20almak%20istiyorum.",
     accentColor: "from-navy-700 to-navy-800",
   },
 ];

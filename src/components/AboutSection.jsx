@@ -71,7 +71,7 @@ export default function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-navy-900/10">
               <Image
                 src="/about-consultant.png"
-                alt="Sinan Bey - Cumba Sigorta Danışmanı"
+                alt="Sinan Cumba - Ankara Çukurambar BES ve Hayat Sigortası Uzmanı"
                 width={600}
                 height={600}
                 className="w-full h-auto object-cover"
@@ -123,7 +123,7 @@ export default function AboutSection() {
             {/* Quick Contact */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+905551234567"
+                href="tel:+905541738880"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-navy-800 text-white font-heading font-semibold text-sm rounded-xl hover:bg-navy-700 transition-all duration-300 shadow-lg shadow-navy-900/20 hover:-translate-y-0.5"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -132,7 +132,7 @@ export default function AboutSection() {
                 Hemen Arayın
               </a>
               <a
-                href="https://wa.me/905551234567?text=Merhaba,%20bilgi%20almak%20istiyorum."
+                href="https://wa.me/905541738880?text=Merhaba,%20bilgi%20almak%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-navy-800 text-navy-800 font-heading font-semibold text-sm rounded-xl hover:bg-navy-800 hover:text-white transition-all duration-300 hover:-translate-y-0.5"

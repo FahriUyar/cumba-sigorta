@@ -2,9 +2,12 @@ import Link from "next/link";
 import PageBanner from "@/components/PageBanner";
 
 export const metadata = {
-  title: "Hizmetlerimiz",
+  title: "Hizmetlerimiz | Bireysel Emeklilik (BES) ve Hayat Sigortası Ankara",
   description:
-    "Cumba Sigorta hizmetleri: Bireysel Emeklilik Sistemi (BES) ve Hayat Sigortası. %30 devlet katkısı avantajıyla geleceğinizi güvence altına alın.",
+    "%30 Devlet katkılı Bireysel Emeklilik Sistemi (BES) ve geleceğinizi koruyan Hayat Sigortası paketlerimizle yanınızdayız.",
+  alternates: {
+    canonical: "https://cumbasigorta.com/hizmetlerimiz",
+  },
 };
 
 export default function HizmetlerimizPage() {

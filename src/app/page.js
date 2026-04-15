@@ -18,7 +18,7 @@ export default function Home() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-navy-900/10">
                 <Image
                   src="/about-consultant.png"
-                  alt="Sinan Bey - Cumba Sigorta Danışmanı"
+                  alt="Sinan Cumba - Ankara Çukurambar BES ve Hayat Sigortası Uzmanı"
                   width={600}
                   height={600}
                   className="w-full h-auto object-cover"

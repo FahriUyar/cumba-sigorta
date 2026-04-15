@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/hero-bg.png"
-          alt="Mutlu aile - Cumba Sigorta"
+          alt="CUMBA Sigorta Acentesi Ankara - Mutlu Bir Aile"
           fill
           className="object-cover"
           priority
@@ -35,9 +35,9 @@ export default function HeroSection() {
 
           {/* Heading */}
           <h1 className="animate-fade-in-up delay-100 font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Geleceğiniz{" "}
+            Ankara BES ve{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-300">
-              Güvence Altında
+              Hayat Sigortası
             </span>
           </h1>
 

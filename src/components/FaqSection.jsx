@@ -130,7 +130,7 @@ export default function FaqSection() {
         <div className="mt-12 text-center">
           <p className="text-navy-600 mb-4">Başka sorunuz mu var?</p>
           <a
-            href="https://wa.me/905551234567?text=Merhaba,%20bir%20sorum%20var."
+            href="https://wa.me/905541738880?text=Merhaba,%20bir%20sorum%20var."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-400 text-navy-900 font-heading font-semibold text-sm rounded-xl hover:from-gold-400 hover:to-gold-300 transition-all duration-300 shadow-lg shadow-gold-500/20 hover:-translate-y-0.5"
