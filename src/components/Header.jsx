@@ -67,7 +67,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <img
-              src="/logo-gold.png"
+              src="/logo-white.png"
               alt="CUMBA Sigorta Logo - Ankara Çukurambar Sigorta Acentesi"
               className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
             />

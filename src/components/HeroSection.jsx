@@ -35,18 +35,31 @@ export default function HeroSection() {
 
           {/* Heading */}
           <h1 className="animate-fade-in-up delay-100 font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Ankara BES ve{" "}
+            Geleceğinizi{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-300">
-              Hayat Sigortası
-            </span>
+              güvence altına almak
+            </span>{" "}
+            için doğru adrestesiniz.
           </h1>
 
           {/* Subtitle */}
-          <p className="animate-fade-in-up delay-200 text-lg sm:text-xl text-cream-200/90 leading-relaxed mb-10 max-w-xl">
-            Bireysel Emeklilik ve Hayat Sigortası çözümleriyle ailenizin
-            geleceğini bugünden güvence altına alın. Kişiye özel danışmanlık
-            hizmetimizle yanınızdayız.
-          </p>
+          <div className="animate-fade-in-up delay-200 space-y-5 mb-10 max-w-xl">
+            <p className="text-lg sm:text-xl text-cream-200/90 leading-relaxed">
+              Hayat, BES ve Sağlık sigortalarında bağımsız ve tarafsız
+              danışmanlık hizmeti sunuyoruz. Sizin için en uygun teminatları, en
+              avantajlı fiyatlarla bir araya getiriyor; sevdiklerinize
+              bırakacağınız mirası ve sağlığınızı korumak için yanınızda
+              oluyoruz.
+            </p>
+            <p className="text-base sm:text-lg text-cream-200/70 leading-relaxed">
+              Hayat belirsizliklerle doludur, ancak sizin geleceğiniz belirsiz
+              olmak zorunda değil. Sağlığınızı, birikimlerinizi ve
+              sevdiklerinizin geleceğini güvence altına alın. Bireysel Emeklilik
+              ile hayalleriniz için birikim yapın, Sağlık sigortası ile huzuru
+              yaşayın, Hayat sigortası ile hem kendinize hem de sevdiklerinize
+              nefes aldırın.
+            </p>
+          </div>
 
           {/* CTA Buttons */}
           <div className="animate-fade-in-up delay-300 flex flex-col sm:flex-row gap-4">
@@ -92,7 +105,7 @@ export default function HeroSection() {
               <svg className="w-5 h-5 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
               </svg>
-              <span>2000+ Mutlu Müşteri</span>
+              <span>2000+ Mutlu Sigortalı</span>
             </div>
           </div>
         </div>

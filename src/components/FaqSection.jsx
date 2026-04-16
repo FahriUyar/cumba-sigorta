@@ -4,34 +4,49 @@ import { useState } from "react";
 
 const faqData = [
   {
-    question: "Bireysel Emeklilik Sistemi (BES) nedir?",
+    question: "Hayat Sigortası mı, BES mi? Hangisi Daha Avantajlı?",
     answer:
-      "BES, çalışma hayatınız boyunca düzenli olarak birikim yaparak emeklilik döneminde ek gelir elde etmenizi sağlayan bir tasarruf sistemidir. Devletin %30'a varan katkısıyla birikimleriniz daha hızlı büyür.",
+      "Cevap basit:\n👉 İhtiyacınıza göre değişir.\n👉 Çoğu durumda en doğru çözüm ikisini birlikte kullanmaktır.",
   },
   {
-    question: "BES'te devlet katkısı nasıl hesaplanır?",
+    question: "Hayat Sigortası ve BES Arasındaki Temel Fark Nedir?",
     answer:
-      "Devlet, BES'e ödediğiniz katkı paylarının %30'u oranında hesabınıza ek katkı yapar. Bu katkının yıllık üst sınırı, brüt asgari ücretin yıllık tutarının %30'u kadardır. Devlet katkısı hak edişi, sistemde kalma süresine bağlı olarak artar.",
+      "Hayat sigortası, sizi ve ailenizi risklere karşı korur.\nBireysel Emeklilik Sistemi (BES) ise uzun vadeli birikim yapmanızı sağlar.\n✔ Biri güvence, diğeri yatırım aracıdır.",
   },
   {
-    question: "BES'ten erken ayrılırsam ne olur?",
+    question: "Hayat sigortasında vergi avantajı var mı?",
     answer:
-      "BES'ten erken ayrılırsanız birikiminizi alabilirsiniz, ancak devlet katkısının tamamını hak edemeyebilirsiniz. 3 yıldan önce ayrılırsanız devlet katkısının hiçbirini alamazsınız. 3-6 yıl arası %15, 6-10 yıl arası %35, 10+ yıl %60 ve emeklilik hakkı kazanırsanız %100'ünü alırsınız.",
+      "Evet. Türkiye’de hayat sigortası primleri belirli şartlar dahilinde gelir vergisi matrahından düşülebilir. Bu sayede daha az vergi ödeyebilirsiniz.\n\n\"Aylık ne kadar vergi avantajı sağlayabileceğinizi öğrenmek ister misiniz?\nGelirinize özel hesaplama yapalım, size en uygun hayat sigortası teklifini sunalım.\"",
   },
   {
-    question: "Hayat Sigortası ile BES arasındaki fark nedir?",
+    question: "Hayat sigortası primlerinin ne kadarı vergiden düşülür?",
     answer:
-      "Hayat Sigortası, vefat veya maluliyet gibi risklere karşı ailenizi finansal olarak korur. BES ise emeklilik dönemine yönelik bir birikim sistemidir. Her ikisi de geleceğe yönelik güvence sağlar, ancak amaçları farklıdır. İhtiyacınıza göre her ikisini de birlikte kullanabilirsiniz.",
+      "Ödenen primlerin:\n• Aylık brüt gelirin %15’ini\n• Yıllık toplamda asgari ücretin yıllık tutarını\naşmayan kısmı vergi matrahından indirilebilir.\n\n\"Aylık ne kadar vergi avantajı sağlayabileceğinizi öğrenmek ister misiniz?\nGelirinize özel hesaplama yapalım, size en uygun hayat sigortası teklifini sunalım.\"",
   },
   {
-    question: "Hayat Sigortası prim ödemeleri ne kadardır?",
+    question: "Birikimli hayat sigortalarında da vergi avantajı var mı?",
     answer:
-      "Prim tutarları; yaşınıza, sağlık durumunuza, seçtiğiniz teminat kapsamına ve poliçe süresine göre değişir. Size en uygun fiyatı bulmak için ücretsiz bir görüşme ayarlamamızı öneririz. WhatsApp üzerinden hemen iletişime geçebilirsiniz.",
+      "Evet, ancak ürün yapısına göre avantajın kapsamı değişebilir. Detaylı bilgi için poliçe özelinde değerlendirme yapılması gerekir.\n\n\"Aylık ne kadar vergi avantajı sağlayabileceğinizi öğrenmek ister misiniz?\nGelirinize özel hesaplama yapalım, size en uygun hayat sigortası teklifini sunalım.\"",
   },
   {
-    question: "Cumba Sigorta ile nasıl iletişime geçebilirim?",
+    question: "BES’te doğrudan vergi indirimi var mı?",
     answer:
-      "WhatsApp, telefon veya e-posta ile 7/24 bize ulaşabilirsiniz. Ankara'daki ofisimizde yüz yüze görüşme imkânı da sunuyoruz. Sayfanın sağ alt köşesindeki WhatsApp butonuna tıklayarak anında iletişime geçebilirsiniz.",
+      "Hayır. BES ödemeleri gelir vergisi matrahından düşülmez.\n✔ Ancak bunun yerine çok güçlü bir avantaj sunulur:\n👉 Devlet katkısı",
+  },
+  {
+    question: "BES’te Devlet katkısında limit var mı?",
+    answer:
+      "Evet.\n• Yıllık katkı, asgari ücretin yıllık tutarıyla sınırlıdır\n• Bu tutarın %20’sine kadar devlet katkısı alınabilir",
+  },
+  {
+    question: "BES’te hiç vergi yok mu?",
+    answer:
+      "Var ama avantajlı:\n• Sadece getiri üzerinden vergi alınır\n• Ana paranızdan vergi kesilmez",
+  },
+  {
+    question: "BES’te Vergi oranı ne kadar?",
+    answer:
+      "• 10 yıldan az: %15\n• 10 yıl+: %10\n• Emeklilikte: %5\n✔ Yani sistemde kaldıkça vergi azalır",
   },
 ];
 
@@ -116,7 +131,7 @@ export default function FaqSection() {
                 >
                   <div className="px-6 pb-2">
                     <div className="w-full h-px bg-cream-200 mb-4" />
-                    <p className="text-navy-600 leading-relaxed">
+                    <p className="text-navy-600 leading-relaxed whitespace-pre-line">
                       {item.answer}
                     </p>
                   </div>

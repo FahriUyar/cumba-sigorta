@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   { value: 15, suffix: "+", label: "Yıllık Tecrübe" },
-  { value: 2000, suffix: "+", label: "Mutlu Müşteri" },
+  { value: 2000, suffix: "+", label: "Mutlu Sigortalı" },
   { value: 50, suffix: "M+", label: "TL Toplam Birikim" },
 ];
 
@@ -70,7 +70,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-navy-900/10">
               <Image
-                src="/about-consultant.png"
+                src="/cumba1.webp"
                 alt="Sinan Cumba - Ankara Çukurambar BES ve Hayat Sigortası Uzmanı"
                 width={600}
                 height={600}
@@ -104,12 +104,12 @@ export default function AboutSection() {
             </h3>
             <div className="space-y-4 text-navy-700 leading-relaxed">
               <p>
-                15 yıllık sektör deneyimimle Ankara&apos;da Bireysel Emeklilik Sistemi (BES) ve
-                Hayat Sigortası alanlarında binlerce müşterime hizmet vermenin gururunu
-                yaşıyorum.
+                15 yıllık sektör deneyimimle Hayat Sigortaları, Bireysel Emeklilik
+                Sistemi (BES) ve Sağlık Sigortası alanlarında binlerce sigortalılarıma
+                hizmet vermenin gururunu yaşıyorum.
               </p>
               <p>
-                Cumba Sigorta olarak, her müşterimizin finansal geleceğini kişiye özel
+                Cumba Sigorta olarak, her sigortalılarımızın finansal geleceğini kişiye özel
                 çözümlerle güvence altına alıyoruz. Şeffaf, dürüst ve güvene dayalı
                 ilişkilerimizle sektörde fark yaratıyoruz.
               </p>

@@ -18,7 +18,10 @@ export default function Footer() {
               />
             </Link>
             <p className="text-cream-200/80 font-body text-[15px] leading-relaxed max-w-sm">
-              Geleceğinizi şansa değil, güvenceye bırakın.
+              15 yılı aşkın sektör deneyimimizle; Hayat Sigortası, Bireysel
+              Emeklilik (BES) ve Sağlık Sigortası alanlarında bağımsız, şeffaf
+              ve tamamen size özel danışmanlık hizmeti sunuyoruz. Geleceğinizi
+              şansa değil, Cumba Sigorta güvencesine bırakın.
             </p>
           </div>
 

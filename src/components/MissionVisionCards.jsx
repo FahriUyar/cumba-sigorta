@@ -28,7 +28,7 @@ export default function MissionVisionCards() {
               </div>
               <h3 className="text-2xl font-heading font-bold text-gold-600 mb-4">Misyonumuz</h3>
               <p className="text-navy-700 leading-relaxed text-[15px]">
-                Müşterilerimizin geleceğe dair endişelerini, onların yerini ve ihtiyaçlarını anlayarak somut çözümlere dönüştürmek. 
+                Sigortalılarımızın geleceğe dair endişelerini, onların yerini ve ihtiyaçlarını anlayarak somut çözümlere dönüştürmek. 
                 Sadece poliçe satmak değil; doğru BES fonuyla emeklilik hayallerini, doğru hayat sigortasıyla da kendilerinin ve sevdiklerinin geleceğini güvence altına almak için varız. 
                 Tarafsız, şeffaf ve etik danışmanlık anlayışımızdan asla ödün vermiyoruz.
               </p>

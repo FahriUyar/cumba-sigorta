@@ -25,7 +25,7 @@ export default function AboutHero() {
               </p>
               <p>
                 Neden sadece bu iki branş? Çünkü gerçek uzmanlık, her şeyi biraz değil, bir şeyi "en iyi" yapmaktan geçer. 
-                Bugüne kadar binlerce müşterimizin emeklilik hayallerine ortak olduk, onların ailelerini geleceğe güvenle bakmalarını sağladık.
+                Bugüne kadar binlerce sigortalılarımızın emeklilik hayallerine ortak olduk, onların ailelerini geleceğe güvenle bakmalarını sağladık.
               </p>
               <p>
                 14 yılı aşkın süredir kendi işletmemizle verdiğimiz hizmette, sizi anlamayı, ihtiyaçlarınızı analiz etmeyi 
@@ -40,7 +40,7 @@ export default function AboutHero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-navy-900/10 border-[6px] border-white">
               {/* Statik export ile uyumlu olması için standart img etiketi kullanıyoruz */}
               <img
-                src="/about-consultant.png"
+                src="/cumba1.webp"
                 alt="Cumba Sigorta Ekibi - Ankara Çukurambar BES Uzmanları"
                 className="w-full h-auto object-cover"
               />
